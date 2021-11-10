@@ -6,6 +6,3 @@ class Asignatura:
     
     def __str__(self):
         return self._nombre + " " + self._salon
-
-    def salida(self):
-        print(self._nombre, self._salon)
