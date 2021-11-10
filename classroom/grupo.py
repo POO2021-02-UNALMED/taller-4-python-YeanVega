@@ -22,9 +22,6 @@ class Grupo:
             self.listadoAlumnos = self.listadoAlumnos + lista
         else:
             self.listadoAlumnos = lista + [alumno]
-    
-    def salida(self):
-        print("Grupo de estudiantes: ",self._grupo)
 
     @ classmethod
     def asignarNombre(cls, nombre="Grado 6"):
